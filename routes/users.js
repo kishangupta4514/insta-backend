@@ -1,6 +1,6 @@
 const mongoose= require('mongoose');
 const plm=require("passport-local-mongoose");
- mongoose.connect("mongodb://127.0.0.1:27017/instaclone");
+ mongoose.connect("mongodb+srv://kishangupta4514:<db_password>@cluster0.yuzo3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const userSchema= mongoose.Schema({
      username: String,
